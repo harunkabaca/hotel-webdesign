@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irem Nur Inan | 2011007022 | İletişim</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>İrem Nur İnan | 2011007022 | İletişim</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" >Anasayfa</a></li>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="iletisim.html" class="active">İletişim</a></li>
+                <li class="search-bar">
+                    <input type="text" id="searchInput"  placeholder="Ara...">
+                    <button type="button" onclick="searchFunction()">Ara</button>
+            </ul>
+        </nav>
+    </header>
+
+    <style>
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2rem;
+            color: #555;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-family: 'audrey';
+            font-size: 3rem;
+            color: #066f1d;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+        h3 {
+            font-family: 'roboto';
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #343434;
+            text-align: left;
+            margin-top: 60px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+        .contact-info div {
+            flex: 1;
+            min-width: 250px;
+            margin: 10px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .contact-info a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #fff;
+            border: 1px solid #333;
+            text-decoration: none;
+            color: #333;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .contact-info a:hover {
+            background: #333;
+            color: #fff;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .form-group textarea {
+            resize: none;
+        }
+        button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+        button:hover {
+            background: #555;
+        }
+        .checkbox-group {
+            margin-bottom: 20px;
+        }
+        .checkbox-group label {
+            font-size: 0.9rem;
+            margin-left: 5px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="contact-info">
+            <div>
+                <h2>TENET HOTEL</h2>
+                <p>Adres: Ayazağa, Hadım Koruyolu Cd. No:19, 34398 Sarıyer/İstanbul</p>
+                <p>Telefon: +90 212 111 11 11</p>
+                <p>e-Posta: info@tenethotel.com</p>
+                <h3>Toplantı & Organizasyon</h3>
+                <p>Telefon: +90 (212) 1111111</p>
+                <p>e-Posta: satis@tenethotel.com</p>
+            </div>
+
+            <div>
+                <h3>Oda Rezervasyonu</h3>
+                <p>Telefon: +90 (212) 111 11 11</p>
+                <p>e-Posta: info@tenethotel.com</p>
+              
+                <div>
+                    <h3>Sosyal Medya</h3>
+                    <p>
+                        <a href="https://www.facebook.com/beykentunv/?locale=tr_TR" target="_blank">Facebook</a>
+                        <a href="https://x.com/BeykentUnv" target="_blank">Twitter</a>
+                        <a href="https://www.instagram.com/beykentunv/" target="_blank">Instagram</a>
+                    </p>
+                </div>
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.789779057112!2d29.001182076416434!3d41.117282012705175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab5b58ba7eeff%3A0x31560b35ad4848d0!2s%C4%B0stanbul%20Beykent%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1736986603308!5m2!1str!2str" 
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+            </iframe>
+            <a href="https://www.google.com/maps/dir//%C4%B0stanbul+Beykent+%C3%9Cniversitesi+Ayaza%C4%9Fa+Had%C4%B1m+Koruyolu+Cd.+No:19+34398+Sar%C4%B1yer%2F%C4%B0stanbul/@41.117278,29.003757,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x14cab5b58ba7eeff:0x31560b35ad4848d0" target="_blank">Yol Tarifi Al</a>
+        </div>
+
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <label for="name">Adınız Soyadınız</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">e-Posta Adresiniz</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Telefon Numaranız</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mesajınız</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="privacy" name="privacy" required>
+                    <label for="privacy">Kişisel Verilerin Korunması Aydınlatma Metnini okudum.</label>
+                </div>
+
+                <button type="submit">Gönder</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Tenet Hotel. Tüm hakları saklıdır.</p>
+    </footer>
+    
+</body>
+</html>

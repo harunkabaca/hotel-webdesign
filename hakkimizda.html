@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İrem Nur İnan | 2011007022 | Hakkımızda</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <body>
+        <header>
+            <h1>İrem Nur İnan | 2011007022 | Hakkımızda</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" >Anasayfa</a></li>
+                    <li><a href="hakkimizda.html"class="active">Hakkımızda</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="iletisim.html" >İletişim</a></li>
+                    <li class="search-bar">
+                        <input type="text" id="searchInput"  placeholder="Ara...">
+                        <button type="button" onclick="searchFunction()">Ara</button>
+                </ul>
+            </nav>
+        </header>
+    <style>
+        .hero {
+            position: relative;
+            text-align: center;
+        }
+        .hero img {
+            width: 1920px;
+            height: 720px;
+            object-fit: cover;
+        }
+        .hero .overlay {
+            position: absolute;
+            bottom: 350px;
+            left: 775px;
+            background-color: rgba(0, 0, 0, 0);
+            color: #000000;
+            border-radius: 10px;
+            font-family: "audrey";
+            font-style: italic;
+           
+        }
+
+        .about-section {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 40px;
+            background-color: white;
+        }
+        .about-image {
+            flex: 1 1 50%;  
+            padding: 20px;
+        }
+        .about-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            
+        
+        }
+        .about-text {
+            flex: 1 1 100%;
+            padding: 20px;
+            
+        }
+        .about-text h2 {
+            font-family: 'audrey';
+            font-size: 5.5rem;
+            color: #098023;
+            text-align: left;
+            font-style: italic;
+            margin-bottom: 5px;
+            margin-top: 5px;}
+
+
+        .about-text h1 {
+                font-family: 'audrey';
+                font-size: 5.5rem;
+                color: #000000;
+                text-align: left;
+                font-style: italic;
+                margin-bottom: 5px;
+                margin-top: 5px;
+                
+            
+        }
+        .about-text p {
+            font-family: "audrey";
+            font-size: 1.8rem;
+            line-height: 1.2;
+            margin-top: 10px;
+            text-align: left;
+            margin-top: 0px;
+        }
+      
+    </style>
+
+</head>
+   
+    <div class="hero">
+        <img src="resimler/otelMain.jpg" alt="Otel Hero">
+        <div class="overlay">
+            <h2>Hakkımızda</h2>
+        </div>
+    </div>
+
+    <section class="about-section">
+        <div class="about-image">
+            <img src="resimler/otel3.jpg" alt="Hakkımızda Resim">
+        </div>
+        <div class="about-text">
+            <h2>Biz Kimiz?</h2>
+            <p>
+                Biz, şehir hayatının karmaşasından uzaklaşmak isteyen, şıklığı ve konforu bir arada arayan misafirlerimize unutulmaz bir deneyim sunan lüks bir butik otel olarak faaliyet gösteriyoruz.
+            </p>
+            <p>
+                Tarihi dokusu ve modern mimarisiyle öne çıkan otelimiz, misafirlerimize ev sıcaklığında bir ortamda konaklama imkanı sunuyor. Sanat ve kültürün iç içe geçtiği özel bir atmosferde, misafirlerimizin tüm ihtiyaçlarını karşılamak ve onlara özel anlar yaşatmak en büyük hedefimiz. 
+                Vizyonumuz, bölgenin en prestijli ve tercih edilen oteli olmak ve misafirlerimize unutulmaz anılar yaşatmak.
+            </p>
+           
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about-text">
+            <h2>Vizyonumuz</h2>
+            <p>
+                Misyonumuz, konuklarımızın rahatlığını ve memnuniyetini en üst düzeye çıkarmaktır. 
+                <span class="highlight">Sürdürülebilirlik</span> ve kalite anlayışımızla sektörde fark yaratıyoruz.
+            </p>
+            </p>
+            <p>
+                Ekibimiz, her bir detayda mükemmelliği hedefler. Sadece bir konaklama değil, aynı zamanda bir yaşam deneyimi sunuyoruz.
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="resimler/otel2.jpg" alt="Vizyon Resmi">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tenet Hotel. Tüm Hakları Saklıdır.</p>
+    </footer>
+</body>
+</html>

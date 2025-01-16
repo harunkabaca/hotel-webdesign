@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Irem Nur Inan | 2011007022 | Galeri</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/4.0.0-beta.1/fancybox.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+</head>
+
+<body>
+  <header>
+
+      <h1>İrem Nur İnan | 2011007022 | Galeri</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Anasayfa</a></li>
+          <li><a href="hakkimizda.html">Hakkımızda</a></li>
+          <li><a href="galeri.html" class="active">Galeri</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+          <li class="search-bar">
+            <input type="text" id="searchInput"  placeholder="Ara...">
+            <button type="button" onclick="searchFunction()">⨀</button>
+        </ul>
+      </nav>
+  </header>
+
+  <style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4c3;
+        color: #333;
+    }
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2rem;
+        color: #555;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+      h3 {
+        font-family: 'audrey';
+            font-size: 5.5rem;
+            color: #098023;
+            text-align: left;
+            font-style: italic;
+            margin-bottom: 5px;
+            margin-top: 5px;
+      }
+      p{
+        font-family: 'audrey';
+            font-size: 1.6rem;
+            color: #535353;
+            text-align: left;
+            font-style: italic;
+            margin-bottom: 5px;
+            margin-top: 5px;
+      }
+</style>
+
+<main>
+    <section class="gallery">
+      <div class="container">
+
+        <h3>Otel Odaları</h3>
+        <p>Konforlu ve modern dizayna sahip odalarımızı keşfedin.</p>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <a href="resimler/otel1.jpg" data-fancybox="gallery1" data-caption="Otel Odası" class="swiper-slide">
+              <img src="resimler/otel1.jpg" alt="Otel Odası">
+            </a>
+            <a href="resimler/otel4.jpg" data-fancybox="gallery1" data-caption="Otel Odası" class="swiper-slide">
+              <img src="resimler/otel4.jpg" alt="Otel Odası">
+            </a>
+            <a href="resimler/otel5.jpg" data-fancybox="gallery1" data-caption="Otel Odası" class="swiper-slide">
+              <img src="resimler/otel5.jpg" alt="Otel Odası">
+            </a>
+            <a href="resimler/otel6.jpg" data-fancybox="gallery1" data-caption="Otel Odası" class="swiper-slide">
+              <img src="resimler/otel6.jpg" alt="Otel Odası">
+            </a>
+            <a href="resimler/otel7.jpg" data-fancybox="gallery1" data-caption="Otel Odası" class="swiper-slide">
+              <img src="resimler/otel7.jpg" alt="Otel Odası">
+            </a>
+          </div>
+        </div>
+
+        <h3>Fitness Salonu</h3>
+        <p>Günlük spor rutininizi aksatmadan devam ettirin.</p>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <a href="resimler/otelfitness3.jpg" data-fancybox="gallery2" data-caption="Fitness Salonu" class="swiper-slide">
+              <img src="resimler/otelfitness3.jpg" alt="Fitness Salonu">
+            </a>
+            <a href="resimler/otelfitness2.jpg" data-fancybox="gallery2" data-caption="Fitness Salonu" class="swiper-slide">
+              <img src="resimler/otelfitness2.jpg" alt="Fitness Salonu">
+            </a>
+            <a href="resimler/otelfitness.jpg" data-fancybox="gallery2" data-caption="Fitness Salonu" class="swiper-slide">
+              <img src="resimler/otelfitness.jpg" alt="Fitness Salonu">
+            </a>
+            <a href="resimler/otelfitness4.jpg" data-fancybox="gallery2" data-caption="Fitness Salonu" class="swiper-slide">
+              <img src="resimler/otelfitness4.jpg" alt="Fitness Salonu">
+            </a>
+            <a href="resimler/otelfitness5.jpg" data-fancybox="gallery2" data-caption="Fitness Salonu" class="swiper-slide">
+              <img src="resimler/otelfitness5.jpg" alt="Fitness Salonu">
+            </a>
+            
+          </div>
+        </div>
+
+        <h3>Wellbeing & Spa</h3>
+        <p>Rahatlamak ve yenilenmek için mükemmel bir ortam.</p>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <a href="resimler/otelspa.jpg" data-fancybox="gallery3" data-caption="Wellbeing & Spa" class="swiper-slide">
+              <img src="resimler/otelspa.jpg" alt="Wellbeing & Spa">
+            </a>
+            <a href="resimler/otelspa2.jpg" data-fancybox="gallery3" data-caption="Wellbeing & Spa" class="swiper-slide">
+              <img src="resimler/otelspa2.jpg" alt="Wellbeing & Spa">
+            </a>
+            <a href="resimler/otelspa6.jpg" data-fancybox="gallery3" data-caption="Wellbeing & Spa" class="swiper-slide">
+              <img src="resimler/otelspa6.jpg" alt="Wellbeing & Spa">
+            </a>
+            <a href="resimler/otelspa3.jpg" data-fancybox="gallery3" data-caption="Wellbeing & Spa" class="swiper-slide">
+              <img src="resimler/otelspa3.jpg" alt="Wellbeing & Spa">
+            </a>
+            <a href="resimler/otelspa4.jpg" data-fancybox="gallery3" data-caption="Wellbeing & Spa" class="swiper-slide">
+              <img src="resimler/otelspa4.jpg" alt="Wellbeing & Spa">
+            </a>
+            
+          
+          </div>
+        </div>
+
+        <h3>Restoran</h3>
+        <p>Dünya lezzetleri...</p>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <a href="resimler/otel2.jpg" data-fancybox="gallery2" data-caption="Restoran" class="swiper-slide">
+              <img src="resimler/otel2.jpg" alt="Restoran">
+            </a>
+            <a href="resimler/otelyemek.jpg" data-fancybox="gallery2" data-caption="Restoran" class="swiper-slide">
+              <img src="resimler/otelyemek.jpg" alt="Restoran">
+            </a>
+            <a href="resimler/otelyemek2.jpg" data-fancybox="gallery2" data-caption="Restoran" class="swiper-slide">
+              <img src="resimler/otelyemek2.jpg" alt="Restoran">
+            </a>
+            <a href="resimler/otelyemek3.jpg" data-fancybox="gallery2" data-caption="Restoran" class="swiper-slide">
+              <img src="resimler/otelyemek3.jpg" alt="Restoran">
+            </a>
+            <a href="resimler/otelyemek4.jpg" data-fancybox="gallery2" data-caption="Restoran" class="swiper-slide">
+              <img src="resimler/otelyemek4.jpg" alt="Restoran">
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Tenet Hotel. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/4.0.0-beta.1/fancybox.min.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>

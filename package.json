@@ -1,0 +1,17 @@
+{
+  "name": "medya_odev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fancyapps/ui": "^5.0.36",
+    "fancybox": "^3.0.1",
+    "swiper": "^11.2.1"
+  }
+}

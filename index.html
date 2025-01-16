@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Otel website.">
+    <meta name="keywords" content="otel, spa, fitness, restoran, tenet, hotel, tenet hotel, irem nur inan">
+    <meta name="author" content="Tenet Hotel, Irem Nur Inan">
+
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.dafont.com/path-to-quakiez-font.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>İrem Nur İnan | 2011007022 | Anasayfa</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Anasayfa</a></li>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+                <li class="search-bar">
+                    <input type="text" id="searchInput"  placeholder="Ara...">
+                    <button type="button" onclick="searchFunction()">Ara</button>
+            </ul>
+        </nav>
+    </header>
+    
+    <style>
+        h4 {
+            font-family: 'audrey';
+            font-size: 4rem;
+            color: #d5ddd7;
+            text-align: left;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        
+        h2 {
+            font-family: 'audrey';
+            font-size: 4rem;
+            color: #098023;
+            text-align: left;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+       
+    </style>
+
+    <main>
+        <section class="hero">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="resimler/otel5.jpg" alt="Tenet Hotel Manzara">
+                        <div class="overlay">
+                            <h4>Konfor ve Şıklık</h4>
+                            <p>Modern otel deneyimi.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="resimler/otel4.jpg" alt="Tenet Hotel Odaları">
+                        <div class="overlay">
+                            <h4>Rahat Odalar</h4>
+                            <p>Keyifli bir konaklama.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="resimler/otelyemek.jpg" alt="Tenet Hotel Restoran">
+                        <div class="overlay">
+                            <h4>Dünya Mutfağı</h4>
+                            <p>Unutulmaz tatlar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+    
+
+        <section class="services">
+            <div class="container">
+                <h2>Hizmetlerimiz</h2>
+                <div class="services-grid">
+                    <a href="#spa" class="service-card-link">
+                        <div class="service-card" id="otelspa">
+                            <img src="resimler/otelspa.jpg" alt="Spa">
+                            <h3>Spa</h3>
+                            <p>Tenet Spa’da rahatlamanın keyfini çıkarın. Profesyonel masajlar ve modern spa hizmetleri sizi bekliyor.</p>
+                        </div>
+                    </a>
+                    <a href="#restoran" class="service-card-link">
+                        <div class="service-card" id="otelrestoran">
+                            <img src="resimler/otel2.jpg" alt="Restoran">
+                            <h3>Restoran</h3>
+                            <p>Dünya mutfağından seçkin lezzetler sunan restoranımızla tanışın.</p>
+                        </div>
+                    </a>
+                    <a href="#fitness" class="service-card-link">
+                        <div class="service-card" id="sporsalonu">
+                            <img src="resimler/otelfitness3.jpg" alt="Fitness">
+                            <h3>Fitness</h3>
+                            <p>Son teknoloji fitness ekipmanlarımızla spor yapmanın tadını çıkarın.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div class="content-sections">
+            <section id="spa" class="section-left">
+                <div class="spa-image">
+                    <img src="resimler/otelspa4.jpg" alt="Spa Image">
+                </div>
+                <div class="spa-text">
+                    <h2>SPA</h2>
+                    <p>
+                        Lüks spa merkezimizde, deneyimli terapistlerimiz tarafından uygulanan çeşitli masaj terapileri, vücut bakımları ve yüz bakımlarıyla kendinizi şımartın. Hayatınız boyunca unutamayacağınız bu deneyimi sakın kaçırmayın. 
+                    </p>
+                </div>
+            </section>
+        
+            <section id="restoran" class="section-right">
+                <div class="restoran-image">
+                    <img src="resimler/otel2.jpg" alt="Restoran Image">
+                </div>
+                <div class="restoran-text">
+                    <h2>Restoran</h2>
+                    <p>
+                        Şık ve modern restoranımızda, açık büfe kahvaltılarımızla güne enerjik başlayabilir, öğle ve akşam yemeklerinde dünya mutfağının en özel lezzetlerini tadabilirsiniz. Özel günleriniz için menülerimiz mevcuttur.
+                    </p>
+                </div>
+            </section>
+        
+            <section id="fitness" class="section-left">
+                <div class="fitness-image">
+                    <img src="resimler/otelfitness3.jpg" alt="Fitness Image">
+                </div>
+                <div class="fitness-text">
+                    <h2>Fitness</h2>
+                    <p>
+                        Geniş ve ferah spor salonumuzda, deneyimli eğitmenlerimizin rehberliğinde kişisel antrenman alabilir veya grup egzersizlerine katılabilirsiniz. Kardiyo ve kuvvet antrenmanları için tüm ihtiyaçlarınızı karşılayacak ekipmanlarımız mevcuttur.
+                    </p>
+                </div>
+            </section>
+        </div>
+        
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Tenet Hotel. Tüm hakları saklıdır.</p>
+        </div>
+    </footer> 
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+    
+</body>
+</html>
